@@ -1,0 +1,11 @@
+ID,Readiness question,Why it matters,Suggested evidence,Status,Finding,Action,Owner,Target date
+INT-01,Can the policy decision function consume endpoint-compliance signals?,An access decision made without device posture is a decision made on half the picture.,Integration configuration and test logs,,,,,
+INT-02,Can endpoint-compliance information flow bidirectionally where required?,One-way integration means a component can miss a compliance change detected elsewhere.,Connector or API test result,,,,,
+INT-03,Can SIEM or SOAR context influence access decisions in near real time?,Detection that cannot reach the enforcement path only produces alerts nobody can act on quickly.,SIEM/SOAR to policy-decision-point test,,,,,
+INT-04,Can multiple policy decision points share or reconcile risk context?,Separate risk views produce inconsistent decisions for the same user on the same day.,Architecture review and event correlation,,,,,
+INT-05,Can non-compliant endpoints be blocked before or at access time?,"A control that only reports after the fact is monitoring, not enforcement.",Negative access test,,,,,
+INT-06,Are protected resources themselves authenticated or health-checked where feasible?,Trusting the network path rather than the resource reintroduces the assumption zero trust removes.,Resource validation evidence,,,,,
+INT-07,Is there a consolidated view of policies across enforcement points?,"Policy scattered across consoles drifts, and nobody notices until it fails.",Policy inventory,,,,,
+INT-08,Can data-security events inform access-policy decisions?,Data movement is often the first signal that access is wrong.,DLP or data-security integration test,,,,,
+INT-09,"Are discovery, SIEM, vulnerability scanning and validation tools operational before rollout?",Migrating into a blind spot removes the visibility you need to confirm the migration worked.,Tool coverage report,,,,,
+INT-10,Can the organization rerun an access test suite after each migration wave?,Without repeatable tests there is no way to show a wave did not weaken enforcement.,Test evidence repository,,,,,
