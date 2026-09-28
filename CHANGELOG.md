@@ -3,6 +3,24 @@
 All notable changes to this toolkit are recorded here. Versions follow the plan set out in
 CONTRIBUTING.md.
 
+## [Unreleased]
+
+Work in progress toward v0.2, added ahead of the version bump so it is available for the first
+pilot.
+
+### Added
+- Environment Intake workbook (Artifact 0), run before any other artifact. Nine sections
+  covering organization profile, hosting, identity, network, endpoints, security tooling, data,
+  backup and disaster recovery, and migration status. Includes a Workload Register sheet that
+  feeds the migration sequencing worksheet, a Temporary Conditions sheet that seeds the risk
+  register, and an Applicability Map that marks which scorecard domains and test cases actually
+  fit the organization being assessed.
+- Environment Intake Call Guide, a one-page script for the week 1 intake conversation.
+
+### Changed
+- README "Where to start" now points to the environment intake as the first step, ahead of the
+  readiness scorecard.
+
 ## [0.1] - 2026-08
 
 Initial community review draft.

@@ -25,6 +25,7 @@ retired, and whether the internal team can operate the result once the implement
 
 | Artifact | Format | Use |
 |---|---|---|
+| [Environment intake](assessment-tool/environment_intake.xlsx) | XLSX | Baseline the actual environment before scoring anything, including a workload register and an applicability map |
 | [Readiness scorecard](assessment-tool/zero_trust_transition_readiness_scorecard.xlsx) | XLSX | Baseline twelve capability domains, 0-5, with evidence |
 | [Transition-state risk register](templates/transition_state_risk_register.xlsx) | XLSX | Ownership, compensating control, expiry, retirement condition |
 | [Data sensitivity and migration sequencing](templates/data_sensitivity_migration_sequencing.xlsx) | XLSX | Order workloads using approved sensitivity and readiness |
@@ -32,6 +33,7 @@ retired, and whether the internal team can operate the result once the implement
 | [Transition test cases](test-cases/zero_trust_transition_test_cases.csv) | CSV | Ten reusable validation scenarios |
 | [Handover and operating model checklist](templates/handover_operating_model_checklist.md) | Markdown | Confirm the internal team can actually run it |
 | [Four-week pilot plan](pilot/4_week_pilot_plan.md) | Markdown | Bounded way to try the toolkit |
+| [Environment intake call guide](pilot/environment_intake_call_guide.md) | Markdown | One page to run the week 1 intake conversation |
 | [Pilot feedback form](pilot/pilot_feedback_form.md) | Markdown | Structured input for the next version |
 | [SP 1800-35 alignment notes](docs/nist_sp1800_35_alignment.md) | Markdown | Traceability and scope boundaries |
 
@@ -40,8 +42,13 @@ with shaded cells to complete and a worked sample.
 
 ## Where to start
 
-If you are early in a migration, start with the readiness scorecard. It takes an afternoon with
-the right people in the room and it will tell you which domains are going to cause you trouble.
+Start with the environment intake, regardless of where you are in a migration. It establishes
+what actually exists before anything gets scored, and it decides which scorecard domains and
+test cases apply to your organization at all. Running the scorecard before the intake usually
+produces a score for something that does not describe the environment in front of you.
+
+Once the intake is done, move to the readiness scorecard. It takes an afternoon with the right
+people in the room and it will tell you which domains are going to cause you trouble.
 
 If you are already mid-migration and know you have accumulated temporary exceptions, start with
 the risk register instead. Getting them into one place with names and dates against them is

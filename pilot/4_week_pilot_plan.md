@@ -30,21 +30,25 @@ forms part of the baseline.
 
 **Focus.** Establish scope and a factual baseline.
 
-Confirm scope and owners. Complete the readiness scorecard across the twelve domains. Review
-whatever asset, identity, network, logging and DR evidence exists. Identify legacy dependencies
-that are known informally but not written down.
+Confirm scope and owners. Run the environment intake first, using the call guide, before scoring
+anything. Complete the workload register and capture every temporary condition the organization
+can name. Use the applicability map to decide which of the twelve scorecard domains actually
+apply here, then complete the readiness scorecard for those domains. Review whatever asset,
+identity, network, logging and DR evidence exists. Identify legacy dependencies that are known
+informally but not written down.
 
-**Outputs.** Scope statement, baseline scores with evidence references, list of evidence gaps,
-candidate workloads for sequencing.
+**Outputs.** Completed environment intake, workload register, temporary conditions list,
+applicability map, scope statement, baseline scores with evidence references, list of evidence
+gaps.
 
 ## Week 2: transition risks and integration
 
 **Focus.** Make temporary conditions visible.
 
-Create the transition-state risk register and populate it with exceptions that already exist,
-including ones currently tracked informally. Assign business, technical and security owners.
-Complete the integration readiness checklist for the pilot scope. Identify policy and telemetry
-gaps.
+Create the transition-state risk register and carry over every entry from the week 1 temporary
+conditions list, plus anything else that surfaces now. Assign business, technical and security
+owners. Complete the integration readiness checklist for the pilot scope. Identify policy and
+telemetry gaps.
 
 **Outputs.** Populated risk register with owners and expiry dates, integration actions, exception
 ownership matrix.
